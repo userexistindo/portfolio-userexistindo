@@ -63,7 +63,7 @@
     margin-top: 4rem;
   }
   .services{
-    width: 100%;
+    max-width: 100%;
   }
 
   .services h2{
@@ -71,7 +71,7 @@
   }
 
 .projects{
-  width: 100%;
+  max-width: 100%;
 }
 
 .projects h2{
@@ -79,14 +79,14 @@
 }
 
 .skills{
-  width: 100%;
+  max-width: 100%;
 }
 
 .cntact{
-  width: 100%;
+  max-width: 100%;
 }
 
 .footer{
-  width: 100%;
+  max-width: 100%;
 }
 }
