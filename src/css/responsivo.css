@@ -48,6 +48,7 @@
     margin: 3rem 0;
   }
   .home{
+    width: 100%;
     flex-direction: column;
     margin: 5rem 4rem;
   }
@@ -61,10 +62,31 @@
     width: 70vw;
     margin-top: 4rem;
   }
+  .services{
+    width: 100%;
+  }
+
   .services h2{
     margin-bottom: 3rem;
   }
-  .projects h2{
-    margin-bottom: 3rem;
-  }
+
+.projects{
+  width: 100%;
+}
+
+.projects h2{
+  margin-bottom: 3rem;
+}
+
+.skills{
+  width: 100%;
+}
+
+.cntact{
+  width: 100%;
+}
+
+.footer{
+  width: 100%;
+}
 }
