@@ -54,8 +54,7 @@ body{
 }
 
 section{
-  min-height: 100vh;
-  padding: 10rem 9% 10rem;
+  padding: 10rem 12% 10rem;
 }
 
 .home {
@@ -366,8 +365,6 @@ span {
   align-items: center;
   cursor: pointer;
 }
-
-
 
 .projects .btn-more:hover {
   background-color: var(--main-color);
