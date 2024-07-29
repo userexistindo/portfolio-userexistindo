@@ -118,7 +118,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     #menu-icon {
         display: block;
     }
@@ -260,7 +260,7 @@
         font-size: 14px;
         color: wheat;
     }
-}
+} */
 
 @media screen and (max-width: 600px) {
     #menu-icon {
