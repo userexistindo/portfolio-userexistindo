@@ -318,18 +318,20 @@ span {
 
 .projects-box .projects-info:hover {
   background: radial-gradient(rgba(0, 0, 0, 0.7), var(--main-color));
-  transform: scale(1.1);
+  transform: scale(1.0);
 }
 
 .projects-info h4 {
   font-size: 2rem;
+  text-align: left;
   color: var(--text-color);
   font-weight: 800;
 }
 
 .projects-info p {
   font-size: 1.6rem;
-  margin: 0.3rem 0 1rem;
+  margin: 0.5rem 0 1rem;
+  text-align: left;
   font-weight: 600;
 }
 
