@@ -1,4 +1,121 @@
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
+  .social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    font-size: 3rem;
+    border-radius: 50%;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+  }
+  .projects-box .projects-info:hover {
+    transform: scale(1.0);
+}
+.projects-info h4 {
+    font-size: 18px;
+    text-align: center;
+}
+.projects-info p {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+.footer .social a {
+  font-size: 30px;
+  color: white;
+  border: 2px solid white;
+  width: 62px;
+  height: 62px;
+  padding-top: 10px;
+  line-height: 42px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: 0.3s ease;
+}
+.footer .social a:hover {
+  transform: scale(1.2) translateX(-8px);
+}
+}
+
+@media screen and (max-width: 992px){
+  #menu-icon {
+    display: block;
+}
+.header .navbar {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+    border-bottom-left-radius: 2em;
+    padding: 1rem 3%;
+    background: var(--second-bg-color);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1) transparent;
+}
+.navbar.active {
+    display: block;
+}
+.navbar a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+section {
+    padding: 10rem 12% 10rem;
+}
+.home-content h3 {
+  font-size: 1.9rem;
+}
+.home-content h3:nth-of-type(2) {
+  font-size: 2.0rem;
+}
+.home-content h1 {
+  font-size: 3rem;
+}
+.home-img img {
+  width: 40vw;
+}
+.home-content p {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+.social-icons a {
+  width: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.projects-box .projects-info:hover {
+  transform: scale(1.0);
+}
+.projects-info h4 {
+  font-size: 12px;
+  text-align: center;
+}
+.projects-info p {
+  font-size: 11px;
+  font-weight: 500;
+  text-align: center;
+}
+.projects-info a {
+width: 3rem;
+height: 3rem;
+}
+
+.projects-info a i {
+font-size: 2.3rem;
+color: var(--main-color);
+}
 }
 
 @media screen and (max-width: 768px) {

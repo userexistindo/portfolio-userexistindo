@@ -97,8 +97,14 @@ span {
   position: relative;
   width: 32vw;
   border-radius: 50%;
+  box-shadow: 0 0 25px var(--main-color);
   margin-top: 3px;
   cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.home-img img:hover{
+  box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
 }
 
 .home-content p {
