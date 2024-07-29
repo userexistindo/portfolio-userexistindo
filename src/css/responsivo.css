@@ -83,12 +83,12 @@
     }
     .projects-info h4 {
         font-size: 24px;
-        text-align: left;
+        text-align: center;
     }
     .projects-info p {
         font-size: 18px;
         font-weight: 500;
-        text-align: left;
+        text-align: center;
     }
     .projects-info a {
       width: 6rem;
