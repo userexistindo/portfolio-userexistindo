@@ -118,7 +118,7 @@
         margin: 13px;
     }
     .projects-box .projects-info:hover {
-        transform: scale(1.1);
+        transform: scale(1.0);
     }
     .projects-info h4 {
         font-size: 1.9rem;
@@ -224,7 +224,7 @@
         margin: 13px;
     }
     .projects-box .projects-info:hover {
-        transform: scale(1);
+        transform: scale(1.0);
     }
     .projects-info h4 {
         font-size: 24px;
