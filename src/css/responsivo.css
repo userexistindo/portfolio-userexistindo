@@ -355,7 +355,6 @@ color: var(--main-color);
   .projects-info a {
     width: 6rem;
     height: 6rem;
-    margin: 45px;
   }
   
   .projects-info a i {
