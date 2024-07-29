@@ -93,6 +93,20 @@
         font-weight: 500;
         text-align: left;
     }
+    .social-icons a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        background: transparent;
+        border: 0.2rem solid var(--main-color);
+        font-size: 1rem;
+        border-radius: 50%;
+        color: var(--main-color);
+        margin: 3rem 1.5rem 3rem 0;
+        transition: 0.3s ease;
+      }
     .heading {
         font-size: 4rem;
     }
@@ -195,8 +209,8 @@
         text-align: left;
     }
     .social-icons a {
-        width: 6rem;
-        height: 6rem;
+        width: 5rem;
+        height: 5rem;
         font-size: 3rem;
     }
     .heading {
@@ -238,11 +252,11 @@
     .projects-info a {
         width: 6rem;
         height: 6rem;
-        margin: 45px;
+        margin: 25px;
     }
 
     .projects-info a i {
-        font-size: 5rem;
+        font-size: 3rem;
         color: var(--main-color);
     }
     .form {
