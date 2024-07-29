@@ -97,8 +97,8 @@
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 3rem;
-        height: 3rem;
+        width: 5rem;
+        height: 5rem;
         background: transparent;
         border: 0.2rem solid var(--main-color);
         font-size: 1rem;
@@ -195,7 +195,7 @@
         font-size: 1.8rem;
     }
     .home-content h3:nth-of-type(2) {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .home-content h1 {
         font-size: 3rem;
@@ -209,8 +209,8 @@
         text-align: left;
     }
     .social-icons a {
-        width: 3rem;
-        height: 3rem;
+        width: 5rem;
+        height: 5rem;
         font-size: 4rem;
     }
     .heading {
