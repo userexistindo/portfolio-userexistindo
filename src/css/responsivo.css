@@ -1,5 +1,21 @@
 @media screen and (max-width: 1020px) {
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 2.5rem;
+    }
 }
+
+@media screen and (max-width: 992px) {
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 2.5rem;
+    }
+}
+
 @media screen and (max-width: 600px) {
     #menu-icon {
         display: block;
